@@ -1,0 +1,54 @@
+{
+  "HALProvider": {
+    "PWM Outputs": {
+      "window": {
+        "visible": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Drivetrain": "Subsystem",
+      "/LiveWindow/Shooter": "Subsystem",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/SmartDashboard/Drivetrain": "Subsystem",
+      "/SmartDashboard/Shooter": "Subsystem"
+    },
+    "windows": {
+      "/LiveWindow/Drivetrain": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/LiveWindow/Shooter": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Drivetrain": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "LiveWindow": {
+      "Shooter": {
+        "open": true
+      },
+      "open": true
+    },
+    "SmartDashboard": {
+      "Drivetrain": {
+        "open": true
+      },
+      "Shooter": {
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
