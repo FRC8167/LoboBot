@@ -24,8 +24,8 @@ public final class Constants {
     public static final double DRIVE_FORWARD_TIME = 20;
     public static final double AUTONOMOUS_SPEED = 0.25;
     public static final double TANK_SPEED = 0.75;
-    public static final double SHOOTER_SPINUP_SPEED = -0.75;
-    public static final double SHOOTER_SPINDOWN_SPEED = 0.75;
+    public static final double SHOOTER_SPINUP_SPEED = -0.7;
+    public static final double SHOOTER_SPINDOWN_SPEED = 0.7;
 
     //CAN IDs for the shooter motors  *****Must first set up using Pheonix Tuner
     public static final int SHOOTER_LEFT = 5;
